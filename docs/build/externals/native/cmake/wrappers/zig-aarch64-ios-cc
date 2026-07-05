@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# iOS ARM64 cross-compile wrapper.
+# Zig 0.16 falls back to clang for iOS targets, so we use xcrun directly
+# with the iOS SDK and -arch arm64 flags.
+IOS_SDK="$(xcrun --sdk iphoneos --show-sdk-path 2>/dev/null)"
+IOS_VERSION="$(xcrun --sdk iphoneos --show-sdk-version 2>/dev/null)"
+# Strip any incompatible sysroot flags, inject iOS SDK
+args=()
+for arg in "$@"; do
+    case "$arg" in
+        -isysroot*) continue ;;  # replace with our iOS sysroot
+    esac
+    args+=("$arg")
+done
+exec xcrun --sdk iphoneos clang \
+    -arch arm64 \
+    -isysroot "$IOS_SDK" \
+    -mios-version-min="12.0" \
+    "${args[@]}"
