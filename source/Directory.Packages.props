@@ -1,0 +1,9 @@
+<Project>
+
+    <!-- 
+    Import the root Directory.Packages.props file for Central Package Management
+
+    <Import Project="$([MSBuild]::GetPathOfFileAbove(Directory.Packages.props, $(MSBuildThisFileDirectory)..))" />
+    -->
+
+</Project>

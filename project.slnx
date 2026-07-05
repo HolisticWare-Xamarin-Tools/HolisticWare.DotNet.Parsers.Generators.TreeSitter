@@ -1,0 +1,280 @@
+<Solution>
+  <Folder Name="/project/">
+    <File Path="./README.md" />
+    <File Path="./AGENTS.md" />
+    <File Path="./CLAUDE.md" />
+    <File Path="./GEMINI.md" />
+    <File Path="./QWEN.md" />
+    <File Path="./Directory.Build.props" />
+    <File Path="./LICENSE" />
+  </Folder>
+  <!--
+  source libraries 
+  business/domain logic
+  infrastructure
+  -->
+  <Folder Name="/project/source/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props.txt" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/">
+    <File Path="./source/business-domain-logic-models/Directory.Build.props" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/core/">
+    <File Path="./source/business-domain-logic-models/core/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/core/HolisticWare.Tools.Parsers.Generators.TreeSitter.Core.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Core.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/core/HolisticWare.Tools.Parsers.Generators.TreeSitter.Core.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Core.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/core/HolisticWare.Tools.Parsers.Generators.TreeSitter.Core.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Core.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/core/HolisticWare.Tools.Parsers.Generators.TreeSitter.Core.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Core.Balanced.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Bash/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Bash/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bash.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bash.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Bash/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bash.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bash.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Bash/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bash.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bash.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Bash/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bash.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bash.Debug.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Bicep/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Bicep/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bicep.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bicep.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Bicep/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bicep.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bicep.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Bicep/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bicep.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bicep.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Bicep/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bicep.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Bicep.Speed.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/C/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/C/HolisticWare.Tools.Parsers.Generators.TreeSitter.C.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.C.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/C/HolisticWare.Tools.Parsers.Generators.TreeSitter.C.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.C.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/C/HolisticWare.Tools.Parsers.Generators.TreeSitter.C.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.C.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/C/HolisticWare.Tools.Parsers.Generators.TreeSitter.C.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.C.Speed.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/CSS/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSS/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSS.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSS.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSS/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSS.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSS.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSS/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSS.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSS.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSS/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSS.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSS.Size.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/CSV/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSV/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSV.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSV.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSV/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSV.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSV.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSV/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSV.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSV.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSV/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSV.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSV.Debug.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/CSharp/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSharp/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSharp.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSharp.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSharp/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSharp.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSharp.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSharp/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSharp.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSharp.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CSharp/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSharp.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.CSharp.Balanced.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/CapnP/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/CapnP/HolisticWare.Tools.Parsers.Generators.TreeSitter.CapnP.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.CapnP.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CapnP/HolisticWare.Tools.Parsers.Generators.TreeSitter.CapnP.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.CapnP.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CapnP/HolisticWare.Tools.Parsers.Generators.TreeSitter.CapnP.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.CapnP.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/CapnP/HolisticWare.Tools.Parsers.Generators.TreeSitter.CapnP.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.CapnP.Debug.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Cpp/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Cpp/HolisticWare.Tools.Parsers.Generators.TreeSitter.Cpp.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Cpp.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Cpp/HolisticWare.Tools.Parsers.Generators.TreeSitter.Cpp.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Cpp.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Cpp/HolisticWare.Tools.Parsers.Generators.TreeSitter.Cpp.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Cpp.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Cpp/HolisticWare.Tools.Parsers.Generators.TreeSitter.Cpp.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Cpp.Speed.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Diff/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Diff/HolisticWare.Tools.Parsers.Generators.TreeSitter.Diff.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Diff.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Diff/HolisticWare.Tools.Parsers.Generators.TreeSitter.Diff.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Diff.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Diff/HolisticWare.Tools.Parsers.Generators.TreeSitter.Diff.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Diff.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Diff/HolisticWare.Tools.Parsers.Generators.TreeSitter.Diff.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Diff.Debug.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Go/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Go/HolisticWare.Tools.Parsers.Generators.TreeSitter.Go.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Go.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Go/HolisticWare.Tools.Parsers.Generators.TreeSitter.Go.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Go.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Go/HolisticWare.Tools.Parsers.Generators.TreeSitter.Go.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Go.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Go/HolisticWare.Tools.Parsers.Generators.TreeSitter.Go.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Go.Size.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/HTML/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/HTML/HolisticWare.Tools.Parsers.Generators.TreeSitter.HTML.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.HTML.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/HTML/HolisticWare.Tools.Parsers.Generators.TreeSitter.HTML.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.HTML.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/HTML/HolisticWare.Tools.Parsers.Generators.TreeSitter.HTML.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.HTML.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/HTML/HolisticWare.Tools.Parsers.Generators.TreeSitter.HTML.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.HTML.Speed.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Haskell/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Haskell/HolisticWare.Tools.Parsers.Generators.TreeSitter.Haskell.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Haskell.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Haskell/HolisticWare.Tools.Parsers.Generators.TreeSitter.Haskell.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Haskell.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Haskell/HolisticWare.Tools.Parsers.Generators.TreeSitter.Haskell.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Haskell.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Haskell/HolisticWare.Tools.Parsers.Generators.TreeSitter.Haskell.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Haskell.Debug.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/JSON/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/JSON/HolisticWare.Tools.Parsers.Generators.TreeSitter.JSON.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.JSON.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/JSON/HolisticWare.Tools.Parsers.Generators.TreeSitter.JSON.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.JSON.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/JSON/HolisticWare.Tools.Parsers.Generators.TreeSitter.JSON.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.JSON.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/JSON/HolisticWare.Tools.Parsers.Generators.TreeSitter.JSON.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.JSON.Size.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Java/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Java/HolisticWare.Tools.Parsers.Generators.TreeSitter.Java.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Java.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Java/HolisticWare.Tools.Parsers.Generators.TreeSitter.Java.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Java.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Java/HolisticWare.Tools.Parsers.Generators.TreeSitter.Java.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Java.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Java/HolisticWare.Tools.Parsers.Generators.TreeSitter.Java.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Java.Size.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/JavaScript/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/JavaScript/HolisticWare.Tools.Parsers.Generators.TreeSitter.JavaScript.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.JavaScript.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/JavaScript/HolisticWare.Tools.Parsers.Generators.TreeSitter.JavaScript.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.JavaScript.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/JavaScript/HolisticWare.Tools.Parsers.Generators.TreeSitter.JavaScript.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.JavaScript.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/JavaScript/HolisticWare.Tools.Parsers.Generators.TreeSitter.JavaScript.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.JavaScript.Speed.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Julia/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Julia/HolisticWare.Tools.Parsers.Generators.TreeSitter.Julia.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Julia.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Julia/HolisticWare.Tools.Parsers.Generators.TreeSitter.Julia.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Julia.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Julia/HolisticWare.Tools.Parsers.Generators.TreeSitter.Julia.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Julia.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Julia/HolisticWare.Tools.Parsers.Generators.TreeSitter.Julia.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Julia.Size.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Kotlin/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Kotlin/HolisticWare.Tools.Parsers.Generators.TreeSitter.Kotlin.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Kotlin.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Kotlin/HolisticWare.Tools.Parsers.Generators.TreeSitter.Kotlin.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Kotlin.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Kotlin/HolisticWare.Tools.Parsers.Generators.TreeSitter.Kotlin.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Kotlin.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Kotlin/HolisticWare.Tools.Parsers.Generators.TreeSitter.Kotlin.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Kotlin.Size.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Make/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Make/HolisticWare.Tools.Parsers.Generators.TreeSitter.Make.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Make.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Make/HolisticWare.Tools.Parsers.Generators.TreeSitter.Make.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Make.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Make/HolisticWare.Tools.Parsers.Generators.TreeSitter.Make.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Make.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Make/HolisticWare.Tools.Parsers.Generators.TreeSitter.Make.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Make.Size.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/ObjC/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/ObjC/HolisticWare.Tools.Parsers.Generators.TreeSitter.ObjC.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.ObjC.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/ObjC/HolisticWare.Tools.Parsers.Generators.TreeSitter.ObjC.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.ObjC.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/ObjC/HolisticWare.Tools.Parsers.Generators.TreeSitter.ObjC.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.ObjC.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/ObjC/HolisticWare.Tools.Parsers.Generators.TreeSitter.ObjC.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.ObjC.Balanced.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/PHP/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/PHP/HolisticWare.Tools.Parsers.Generators.TreeSitter.PHP.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.PHP.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/PHP/HolisticWare.Tools.Parsers.Generators.TreeSitter.PHP.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.PHP.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/PHP/HolisticWare.Tools.Parsers.Generators.TreeSitter.PHP.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.PHP.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/PHP/HolisticWare.Tools.Parsers.Generators.TreeSitter.PHP.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.PHP.Size.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/PowerShell/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/PowerShell/HolisticWare.Tools.Parsers.Generators.TreeSitter.PowerShell.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.PowerShell.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/PowerShell/HolisticWare.Tools.Parsers.Generators.TreeSitter.PowerShell.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.PowerShell.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/PowerShell/HolisticWare.Tools.Parsers.Generators.TreeSitter.PowerShell.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.PowerShell.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/PowerShell/HolisticWare.Tools.Parsers.Generators.TreeSitter.PowerShell.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.PowerShell.Size.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Puppet/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Puppet/HolisticWare.Tools.Parsers.Generators.TreeSitter.Puppet.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Puppet.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Puppet/HolisticWare.Tools.Parsers.Generators.TreeSitter.Puppet.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Puppet.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Puppet/HolisticWare.Tools.Parsers.Generators.TreeSitter.Puppet.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Puppet.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Puppet/HolisticWare.Tools.Parsers.Generators.TreeSitter.Puppet.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Puppet.Debug.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Python/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Python/HolisticWare.Tools.Parsers.Generators.TreeSitter.Python.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Python.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Python/HolisticWare.Tools.Parsers.Generators.TreeSitter.Python.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Python.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Python/HolisticWare.Tools.Parsers.Generators.TreeSitter.Python.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Python.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Python/HolisticWare.Tools.Parsers.Generators.TreeSitter.Python.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Python.Debug.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/R/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/R/HolisticWare.Tools.Parsers.Generators.TreeSitter.R.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.R.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/R/HolisticWare.Tools.Parsers.Generators.TreeSitter.R.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.R.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/R/HolisticWare.Tools.Parsers.Generators.TreeSitter.R.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.R.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/R/HolisticWare.Tools.Parsers.Generators.TreeSitter.R.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.R.Size.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/RegEx/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/RegEx/HolisticWare.Tools.Parsers.Generators.TreeSitter.RegEx.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.RegEx.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/RegEx/HolisticWare.Tools.Parsers.Generators.TreeSitter.RegEx.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.RegEx.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/RegEx/HolisticWare.Tools.Parsers.Generators.TreeSitter.RegEx.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.RegEx.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/RegEx/HolisticWare.Tools.Parsers.Generators.TreeSitter.RegEx.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.RegEx.Balanced.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Ruby/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Ruby/HolisticWare.Tools.Parsers.Generators.TreeSitter.Ruby.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Ruby.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Ruby/HolisticWare.Tools.Parsers.Generators.TreeSitter.Ruby.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Ruby.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Ruby/HolisticWare.Tools.Parsers.Generators.TreeSitter.Ruby.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Ruby.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Ruby/HolisticWare.Tools.Parsers.Generators.TreeSitter.Ruby.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Ruby.Balanced.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Rust/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Rust/HolisticWare.Tools.Parsers.Generators.TreeSitter.Rust.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Rust.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Rust/HolisticWare.Tools.Parsers.Generators.TreeSitter.Rust.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Rust.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Rust/HolisticWare.Tools.Parsers.Generators.TreeSitter.Rust.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Rust.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Rust/HolisticWare.Tools.Parsers.Generators.TreeSitter.Rust.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Rust.Speed.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/SCSS/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/SCSS/HolisticWare.Tools.Parsers.Generators.TreeSitter.SCSS.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.SCSS.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/SCSS/HolisticWare.Tools.Parsers.Generators.TreeSitter.SCSS.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.SCSS.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/SCSS/HolisticWare.Tools.Parsers.Generators.TreeSitter.SCSS.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.SCSS.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/SCSS/HolisticWare.Tools.Parsers.Generators.TreeSitter.SCSS.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.SCSS.Debug.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Scala/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Scala/HolisticWare.Tools.Parsers.Generators.TreeSitter.Scala.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Scala.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Scala/HolisticWare.Tools.Parsers.Generators.TreeSitter.Scala.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Scala.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Scala/HolisticWare.Tools.Parsers.Generators.TreeSitter.Scala.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Scala.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Scala/HolisticWare.Tools.Parsers.Generators.TreeSitter.Scala.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Scala.Debug.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Swift/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Swift/HolisticWare.Tools.Parsers.Generators.TreeSitter.Swift.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Swift.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Swift/HolisticWare.Tools.Parsers.Generators.TreeSitter.Swift.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Swift.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Swift/HolisticWare.Tools.Parsers.Generators.TreeSitter.Swift.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Swift.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Swift/HolisticWare.Tools.Parsers.Generators.TreeSitter.Swift.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Swift.Balanced.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/TOML/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/TOML/HolisticWare.Tools.Parsers.Generators.TreeSitter.TOML.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.TOML.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/TOML/HolisticWare.Tools.Parsers.Generators.TreeSitter.TOML.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.TOML.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/TOML/HolisticWare.Tools.Parsers.Generators.TreeSitter.TOML.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.TOML.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/TOML/HolisticWare.Tools.Parsers.Generators.TreeSitter.TOML.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.TOML.Speed.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/Thrift/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/Thrift/HolisticWare.Tools.Parsers.Generators.TreeSitter.Thrift.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.Thrift.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Thrift/HolisticWare.Tools.Parsers.Generators.TreeSitter.Thrift.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.Thrift.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Thrift/HolisticWare.Tools.Parsers.Generators.TreeSitter.Thrift.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.Thrift.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/Thrift/HolisticWare.Tools.Parsers.Generators.TreeSitter.Thrift.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.Thrift.Balanced.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/TypeScript/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/TypeScript/HolisticWare.Tools.Parsers.Generators.TreeSitter.TypeScript.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.TypeScript.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/TypeScript/HolisticWare.Tools.Parsers.Generators.TreeSitter.TypeScript.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.TypeScript.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/TypeScript/HolisticWare.Tools.Parsers.Generators.TreeSitter.TypeScript.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.TypeScript.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/TypeScript/HolisticWare.Tools.Parsers.Generators.TreeSitter.TypeScript.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.TypeScript.Balanced.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/XML/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/XML/HolisticWare.Tools.Parsers.Generators.TreeSitter.XML.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.XML.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/XML/HolisticWare.Tools.Parsers.Generators.TreeSitter.XML.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.XML.Debug.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/XML/HolisticWare.Tools.Parsers.Generators.TreeSitter.XML.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.XML.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/XML/HolisticWare.Tools.Parsers.Generators.TreeSitter.XML.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.XML.Balanced.csproj" />
+  </Folder>
+  <Folder Name="/project/source/business-domain-logic-models/grammars/YAML/">
+    <File Path="./source/business-domain-logic-models/grammars/Directory.Build.props" />
+    <Project Path="./source/business-domain-logic-models/grammars/YAML/HolisticWare.Tools.Parsers.Generators.TreeSitter.YAML.Balanced/HolisticWare.Tools.Parsers.Generators.TreeSitter.YAML.Balanced.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/YAML/HolisticWare.Tools.Parsers.Generators.TreeSitter.YAML.Speed/HolisticWare.Tools.Parsers.Generators.TreeSitter.YAML.Speed.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/YAML/HolisticWare.Tools.Parsers.Generators.TreeSitter.YAML.Size/HolisticWare.Tools.Parsers.Generators.TreeSitter.YAML.Size.csproj" />
+    <Project Path="./source/business-domain-logic-models/grammars/YAML/HolisticWare.Tools.Parsers.Generators.TreeSitter.YAML.Debug/HolisticWare.Tools.Parsers.Generators.TreeSitter.YAML.Debug.csproj" />
+  </Folder>
+
+
+</Solution>
