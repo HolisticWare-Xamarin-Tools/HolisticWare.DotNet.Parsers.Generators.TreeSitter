@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Windows cross-compile archiver wrapper
+exec zig ar "$@"

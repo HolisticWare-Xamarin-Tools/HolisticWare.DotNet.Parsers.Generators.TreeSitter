@@ -1,6 +1,6 @@
-# HolisticWare.DotNet.Parsers.Generators.TreeSitter.Private
+# HolisticWare.DotNet.Parsers.Generators.TreeSitter
 
-HolisticWare.DotNet.Parsers.Generators.TreeSitter.Private
+HolisticWare.DotNet.Parsers.Generators.TreeSitter
 
 *   structure
 

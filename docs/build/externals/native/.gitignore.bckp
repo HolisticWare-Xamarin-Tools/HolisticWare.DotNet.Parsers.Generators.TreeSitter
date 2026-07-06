@@ -1,0 +1,6 @@
+**/out/
+**/out-*/
+**/build/
+**/build-*/
+**/logs/
+**/logs-*/
