@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Windows cross-compile ranlib wrapper
+exec zig ranlib "$@"

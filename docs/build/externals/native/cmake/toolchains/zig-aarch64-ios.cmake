@@ -1,0 +1,19 @@
+# iOS ARM64 (device, min iOS 12.0)
+set(CMAKE_SYSTEM_NAME Darwin)
+set(CMAKE_SYSTEM_PROCESSOR aarch64)
+set(CMAKE_C_COMPILER "${CMAKE_CURRENT_LIST_DIR}/../wrappers/zig-aarch64-ios-cc")
+
+# Use xcrun tools for archiver/ranlib to match the iOS SDK
+set(CMAKE_AR "${CMAKE_CURRENT_LIST_DIR}/../wrappers/zig-aarch64-ios-ar" CACHE FILEPATH "Path to archiver")
+set(CMAKE_RANLIB "${CMAKE_CURRENT_LIST_DIR}/../wrappers/zig-aarch64-ios-ranlib" CACHE FILEPATH "Path to ranlib")
+
+# Disable @response-file syntax (macOS ar doesn't support it for iOS)
+set(CMAKE_USE_RESPONSE_FILE_FOR_OBJECTS OFF)
+set(CMAKE_USE_RESPONSE_FILE_FOR_LIBRARIES OFF)
+set(CMAKE_USE_RESPONSE_FILE_FOR_LINKER OFF)
+set(CMAKE_USE_RESPONSE_FILE_FOR_INCLUDES OFF)
+
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)

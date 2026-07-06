@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Android aarch64 compiler wrapper
+# Use API level 21 (minimum for 64-bit Android)
+exec zig cc -target aarch64-linux-android21 "$@"
