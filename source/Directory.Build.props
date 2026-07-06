@@ -1,0 +1,53 @@
+<Project>
+    <Import Project="../Directory.Build.props" />
+    <!--
+    <Import Project="./Directory.Build.build.props" />
+    <Import Project="./Directory.Build.packages-dependencies.props" />
+    -->
+
+    <PropertyGroup>
+        <IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackOnBuild>true</PackOnBuild>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Company>
+            HolisticWare
+        </Company>
+        <Authors>
+            HolisticWare ;
+            Miljenko Cvjetko ;
+            moljac ;            
+        </Authors>
+        <Product>
+            HolisticWare.Tools.Parsers.Generators.TreeSitter packages - tree-sitter parser generator for .NET
+        </Product>
+        <Description>
+            HolisticWare.Tools.Parsers.Generators.TreeSitter packages - tree-sitter parser generator for .NET
+        </Description>
+        <Copyright>
+            Copyright G-RHolisticWare moljac 2026
+        </Copyright>
+        <PackageProjectUrl>
+            https://github.com/HolisticWare-Xamarin-Tools/HolisticWare.DotNet.Parsers.Generators.TreeSitter
+        </PackageProjectUrl>
+        <RepositoryUrl>
+            https://github.com/HolisticWare-Xamarin-Tools/HolisticWare.DotNet.Parsers.Generators.TreeSitter
+        </RepositoryUrl>
+        <PackageTags>
+            .net 
+            c#
+            HolisticWare
+            moljac
+            tree-sitter
+            parser
+            generator
+            parser-generator
+        </PackageTags>
+        <PackageLicenseExpression>
+            MIT
+        </PackageLicenseExpression>
+    </PropertyGroup>
+
+</Project>
