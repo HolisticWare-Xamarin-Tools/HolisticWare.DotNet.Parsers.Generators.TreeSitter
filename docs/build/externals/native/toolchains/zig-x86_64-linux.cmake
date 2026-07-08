@@ -6,3 +6,10 @@ set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
 set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)
+
+# Zig cross-compilation for Linux defaults to stripping symbols
+# Work around by using objcopy to preserve them
+# Add post-build step to keep symbols after build
+set(CMAKE_C_FLAGS_INIT "-g")
+# Disable strip during install
+set(CMAKE_INSTALL_DO_STRIP FALSE)
