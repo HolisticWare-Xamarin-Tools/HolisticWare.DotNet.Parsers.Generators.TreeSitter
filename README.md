@@ -1,6 +1,6 @@
-# HolisticWare.DotNet.Parsers.Generators.TreeSitter
+# HolisticWare.DotNet.Parsers.Generators.TreeSitter.Private
 
-HolisticWare.DotNet.Parsers.Generators.TreeSitter
+HolisticWare.DotNet.Parsers.Generators.TreeSitter.Private
 
 *   structure
 
@@ -17,6 +17,7 @@ HolisticWare.DotNet.Parsers.Generators.TreeSitter
             ./externals/native/core/
             ./externals/native/grammars/
             ```
+
 *   motivation
 
     *   parsing
@@ -35,7 +36,17 @@ HolisticWare.DotNet.Parsers.Generators.TreeSitter
 
         *   AI coding assistants
 
-# tree-sitter
+## Build
+
+```shell
+rm -fr ./externals/
+source ./download-clone-native.sh
+source ./docs/build/scripts/restore.sh 
+source ./build-native.sh
+```
+
+
+## References/Links
 
 *   https://github.com/orgs/HolisticWare-DotNet-Tools-Original-Fork/repositories
 
